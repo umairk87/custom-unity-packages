@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Unity generated files
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+
+# Unity builds
+Build/
+Builds/
+
+# IDE
+.idea/
+.vscode/
+
+# Visual Studio
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# Rider
+*.sln.iml
+
+# Logs
+*.log
+
+# Temporary / backup files
+*.tmp
+*.bak
+
+# OS
+Thumbs.db

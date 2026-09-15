@@ -1,0 +1,16 @@
+{
+    "name": "Framework.UISequence",
+    "rootNamespace": "",
+    "references": [
+        "GUID:eed074a670bbd4b3899a89e85dbeb195"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
