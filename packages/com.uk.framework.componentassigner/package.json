@@ -1,0 +1,10 @@
+{
+  "name": "com.uk.framework.componentassigner",
+  "version": "1.0.0",
+  "displayName": "UK Framework - Component Assigner",
+  "description": "A reusable Unity Editor tool for automatically assigning components from a GameObject hierarchy to array or List fields.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Umair Khalid"
+  }
+}
