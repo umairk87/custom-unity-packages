@@ -1,7 +1,7 @@
 {
   "name": "com.uk.framework.uisequence",
   "version": "1.0.0",
-  "displayName": "Game UI Sequence Editor",
+  "displayName": "UK Framework - UI Sequence Editor",
   "description": "Reusable Unity UI Sequence Editor",
   "unity": "6000.0",
   "author": {
