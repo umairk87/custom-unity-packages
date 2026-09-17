@@ -1,0 +1,10 @@
+{
+  "name": "com.uk.framework.game",
+  "version": "1.0.0",
+  "displayName": "UK Framework - Game",
+  "description": "A reusable Unity game framework providing common runtime systems and foundations for multiple games.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Umair Khalid"
+  }
+}

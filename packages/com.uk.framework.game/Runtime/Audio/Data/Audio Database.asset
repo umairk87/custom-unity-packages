@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5ca64218a1ac44c884f4803b1d70ce6, type: 3}
+  m_Name: Audio Database
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Cannon.Audio.AudioDatabase
+  sounds:
+  - Id: 2
+    Clip: {fileID: 8300000, guid: 96c10143ac0461b47baaf2485a715f15, type: 3}
+    Volume: 0.712
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: 3781540309669702441, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  - Id: 5
+    Clip: {fileID: 8300000, guid: f81e176668bb64a82a3b3437247d2698, type: 3}
+    Volume: 0.855
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: 3781540309669702441, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  - Id: 14
+    Clip: {fileID: 8300000, guid: affc04d042166b847832a30f7a1d096f, type: 3}
+    Volume: 0.88
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: -3211029852795295376, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  - Id: 3
+    Clip: {fileID: 8300000, guid: 35465682814c84644b203b491830cf35, type: 3}
+    Volume: 0.827
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: 3781540309669702441, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  - Id: 12
+    Clip: {fileID: 8300000, guid: 8cf4963074000634ca7625f8581af824, type: 3}
+    Volume: 0.933
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: 3781540309669702441, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  - Id: 13
+    Clip: {fileID: 8300000, guid: 755a4a7c6a8b0624f9370c9cceb2c8c9, type: 3}
+    Volume: 0.933
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: 3781540309669702441, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  - Id: 7
+    Clip: {fileID: 8300000, guid: c0ef46cd901a94612bd307d5fbe1d01d, type: 3}
+    Volume: 0.933
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: 3781540309669702441, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  - Id: 1
+    Clip: {fileID: 8300000, guid: bfdd66f657dbc5e4888255b64de7483a, type: 3}
+    Volume: 0.933
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: 3088759557576933553, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  - Id: 15
+    Clip: {fileID: 8300000, guid: b4e78721c89fd41f79bba3319019eef7, type: 3}
+    Volume: 1
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: 3781540309669702441, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  - Id: 6
+    Clip: {fileID: 8300000, guid: 6a5de39cba2cacb429dedba80319459b, type: 3}
+    Volume: 1
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: 3781540309669702441, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  - Id: 11
+    Clip: {fileID: 8300000, guid: 36bdb703a928ac54a81b5c7834039a51, type: 3}
+    Volume: 1
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: 3088759557576933553, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  - Id: 16
+    Clip: {fileID: 8300000, guid: 1171fac682031fe4f96d1327ab7391fb, type: 3}
+    Volume: 1
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: 3088759557576933553, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  - Id: 17
+    Clip: {fileID: 8300000, guid: 0eb1f8e8aa0cf3f47ba141ef66695562, type: 3}
+    Volume: 1
+    Pitch: {x: 1, y: 1}
+    Spatial: 0
+    MixerGroup: {fileID: 3088759557576933553, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  audioPlayerPrefab: {fileID: 5137971342903913102, guid: bc46ff5747e1a4f2aa58972f7a6427a3, type: 3}
+  audioMixer: {fileID: 24100000, guid: c1fcf386909c44d3e89e7787294cef10, type: 2}
+  musicVolume: MusicVolume
+  sfxVolume: SFXVolume
+  uiVolume: UIVolume
