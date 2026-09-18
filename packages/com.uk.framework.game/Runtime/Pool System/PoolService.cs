@@ -8,48 +8,21 @@ namespace UKFramework.Game
     public class PoolService
     {
 
-        private Dictionary<GameObject, ObjectPool>
-        pools =
-        new();
-
-
-
+        private Dictionary<GameObject, ObjectPool> pools = new();
         private Transform container;
-
-
-
         public PoolService()
         {
-
-            GameObject root =
-            new GameObject(
-            "PoolContainer");
-
-
-            container =
-            root.transform;
+            GameObject root = new GameObject("PoolContainer");
+            container = root.transform;
+            Object.DontDestroyOnLoad(root);
 
 
         }
 
-
-
-
-        public void CreatePool(
-        GameObject prefab,
-        int size)
+        public void CreatePool(GameObject prefab, int size)
         {
-
-            ObjectPool pool =
-            new ObjectPool(
-            prefab,
-            container,
-            size);
-
-
-            pools.Add(
-            prefab,
-            pool);
+            ObjectPool pool = new ObjectPool(prefab, container, size);
+            pools.Add(prefab, pool);
 
 
         }

@@ -18,8 +18,6 @@ namespace UKFramework.Game
         [SerializeField]
         private GameConfig GameConfig;
 
-
-
         private void Awake()
         {
             InitializeApplication();
@@ -36,6 +34,7 @@ namespace UKFramework.Game
             }
 
             Application.targetFrameRate = GameConfig.TargetFrameRate;
+            DontDestroyOnLoad(gameObject);
         }
 
         protected virtual void InitializeGameInitializers()
@@ -96,8 +95,6 @@ namespace UKFramework.Game
             IGameStateService gameState = new GameStateService();
             ServiceLocator.Register<IGameStateService>(gameState);
         }
-
-
 
         private void OnDestroy()
         {

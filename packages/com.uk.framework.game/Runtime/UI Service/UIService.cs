@@ -27,6 +27,11 @@ namespace UKFramework.Game.UI
         private bool isInitialized;
 
 
+        private void Awake()
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+
         public void Initialize()
         {
             if (isInitialized)

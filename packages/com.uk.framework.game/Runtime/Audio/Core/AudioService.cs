@@ -24,6 +24,10 @@ namespace UKFramework.Game.Audio
         private bool initialized;
         private IProgressService progressService;
 
+        private void Awake()
+        {
+            DontDestroyOnLoad(gameObject);
+        }
         public void InitializeDB(AudioDatabase db)
         {
             database = db;

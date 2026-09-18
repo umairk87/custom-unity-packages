@@ -23,6 +23,11 @@ namespace UKFramework.Game
             return services.ContainsKey(typeof(T));
         }
 
+        public static void Unregister<T>()
+        {
+            services.Remove(typeof(T));
+        }
+
         public static void Clear()
         {
             services.Clear();
