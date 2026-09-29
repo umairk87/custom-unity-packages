@@ -1,0 +1,36 @@
+PROFILE: mobile
+  PlatformEnabled: false
+  Platform: None
+  AdsEnabled: true
+    AdMob: Enabled, Priority 0
+    UnityAds: Enabled, Priority 10
+  AnalyticsEnabled: true
+    Firebase: Enabled, Priority 0
+
+PROFILE: crazygames
+  PlatformEnabled: true
+  Platform: CrazyGames
+  AdsEnabled: true
+    CrazyGames: Enabled, Priority 0
+  AnalyticsEnabled: true
+    CrazyGames: Enabled, Priority 0
+
+PROFILE: poki
+  PlatformEnabled: true
+  Platform: Poki
+  AdsEnabled: true
+    Poki: Enabled, Priority 0
+  AnalyticsEnabled: true
+    Poki: Enabled, Priority 0
+
+PROFILE: noads
+  PlatformEnabled: true
+  Platform: CrazyGames
+  AdsEnabled: false
+  AnalyticsEnabled: true
+    CrazyGames: Enabled, Priority 0
+
+PROFILE: development
+  PlatformEnabled: false
+  AdsEnabled: false
+  AnalyticsEnabled: false

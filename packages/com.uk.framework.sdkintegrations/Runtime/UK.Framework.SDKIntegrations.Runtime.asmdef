@@ -1,0 +1,14 @@
+{
+  "name": "UK.Framework.SDKIntegrations.Runtime",
+  "rootNamespace": "UK.Framework.SDKIntegrations",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
