@@ -1,3 +1,16 @@
 {
-	"name": "UKFramework.Game.Editor"
+    "name": "UKFramework.Game.Editor",
+    "rootNamespace": "UK.Framework.Game.Editor",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

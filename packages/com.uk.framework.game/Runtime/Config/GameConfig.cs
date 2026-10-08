@@ -1,5 +1,6 @@
 using UnityEngine;
 using UKFramework.Game.Audio;
+using System;
 
 namespace UKFramework.Game
 {
@@ -13,9 +14,11 @@ namespace UKFramework.Game
 
         [Header("Application")]
         [SerializeField] private int targetFrameRate = 60;
+        [SerializeField] private string privacyPolicy;
 
         public AudioDatabase AudioDatabase => audioDatabase;
         public int TargetFrameRate => targetFrameRate;
+        public string PrivacyPolicy => privacyPolicy;
 
     }
 }

@@ -28,6 +28,7 @@ namespace UKFramework.Game.Audio
         BackgroundMusic,
         ClayBreak,
         Star,
-        Character
+        Character,
+        EnemyAttack
     }
 }

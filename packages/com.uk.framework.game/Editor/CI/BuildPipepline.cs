@@ -7,9 +7,9 @@ using UnityEditor;
 using UnityEditor.Build.Reporting;
 using UnityEngine;
 
-namespace UK.Framework.Game.Editor.CI
+namespace UKFramework.Game.Editor
 {
-    public static class BuildPipepline
+    public static class BuildPipeline
     {
         public static void Build()
         {

@@ -15,8 +15,6 @@ namespace UKFramework.Game
             GameObject root = new GameObject("PoolContainer");
             container = root.transform;
             Object.DontDestroyOnLoad(root);
-
-
         }
 
         public void CreatePool(GameObject prefab, int size)
