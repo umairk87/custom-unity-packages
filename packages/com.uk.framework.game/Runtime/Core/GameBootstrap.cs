@@ -85,7 +85,7 @@ namespace UKFramework.Game
             ServiceLocator.Register(poolService);
         }
 
-        private void InitializeGameplayState()
+        private virtual void InitializeGameplayState()
         {
             IGameplayState gameplayState = new GameplayState(18, 3);
             ServiceLocator.Register<IGameplayState>(gameplayState);
